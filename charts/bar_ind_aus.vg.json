@@ -5,7 +5,7 @@
     "width": 479,
     "height": 300,
     "data": {
-      "url": "Data/aus_CO2_industry.json"
+      "url": "charts/aus_CO2_industry.json"
     },
     "mark": "bar",
     "encoding": {

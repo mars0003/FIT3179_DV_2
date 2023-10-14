@@ -4,7 +4,7 @@
   "background":"#fbfbf3",
   "width": 479,
   "height": 300,
-  "data": {"url": "aus_CO2_emissions_time.json"},
+  "data": {"url": "charts/aus_CO2_emissions_time.json"},
   "layer": [
     {
       "mark": "boxplot",
