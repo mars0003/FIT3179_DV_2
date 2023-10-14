@@ -5,7 +5,7 @@
   "width": 479,
   "height": 300,
   "data": {
-      "url": "../Data/state_CO2_industry.json"
+      "url": "state_CO2_industry.json"
   },
   "selection": {
       "select_state": {

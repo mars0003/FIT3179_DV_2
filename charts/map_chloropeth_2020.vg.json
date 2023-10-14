@@ -5,7 +5,7 @@
     "height": 400,
     "background":"#fbfbf3",
     "data": {
-      "url": "../Data/australian-states.min.json",
+      "url": "australian-states.min.json",
       "format": {"type": "topojson", "feature": "australian-states.min"}
     },
     "projection": {
@@ -18,7 +18,7 @@
         "transform": [
           {
             "lookup": "properties.STATE_NAME",
-            "from": {"data": {"url": "../Data/aus_CO2_data_2020.csv"}, "key": "State", "fields": ["CO2 emissions (tonnes per capita)"]}
+            "from": {"data": {"url": "aus_CO2_data_2020.csv"}, "key": "State", "fields": ["CO2 emissions (tonnes per capita)"]}
           }
         ],
         "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 1},

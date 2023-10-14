@@ -5,7 +5,7 @@
   "width": 479,
   "height": 300,
   "data": {
-      "url": "../Data/aus_CO2_emissions_time.json"
+      "url": "aus_CO2_emissions_time.json"
   },
   "layer": [
     {
@@ -68,7 +68,7 @@
 "fontSize": 10,
 "fontStyle": "italic"
 },
-      "transform": [{"lookup": "Year", "from": {"data": {"url": "../Data/acts.csv"}, "key": "Year", "fields": ["Act Name"]}}],
+      "transform": [{"lookup": "Year", "from": {"data": {"url": "acts.csv"}, "key": "Year", "fields": ["Act Name"]}}],
       "encoding": {
         "x": {"field": "Year", "type": "ordinal"},
         "y": {"value": 10},
@@ -91,7 +91,7 @@
       "fontSize": 10,
       "fontStyle": "italic"
       },
-            "transform": [{"lookup": "Year", "from": {"data": {"url": "../Data/acts.csv"}, "key": "Year", "fields": ["Act Name"]}}],
+            "transform": [{"lookup": "Year", "from": {"data": {"url": "acts.csv"}, "key": "Year", "fields": ["Act Name"]}}],
             "encoding": {
               "x": {"field": "Year", "type": "ordinal"},
               "y": {"value": 10},
