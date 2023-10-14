@@ -1,0 +1,55 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {
+      "url": "../Data/vic_ind_time.json"
+    },
+    "background": "#fbfbf3",
+    "width": 479,
+    "height": 300,
+    "selection": {
+      "industrySelector": {
+        "type": "single",
+        "fields": ["Sector"],
+        "bind": {
+          "Sector": {
+            "input": "select",
+            "options": [null, "Energy", "Industrial Processes", "Agriculture", "Land Use", "Waste"],
+            "labels": ["Show all", "Energy", "Industrial Processes", "Agriculture", "Land Use", "Waste"],
+            "name": "Sector: "
+
+
+          }
+        }
+      }
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal"
+      },
+      "y": {
+        "field": "Emission",
+        "type": "quantitative",
+        "stack": "zero"      },
+      "color": {
+        "field": "Sector",
+        "type": "nominal",
+        "legend": {
+          "title": "Emission Categories"
+        },
+        "scale": {
+          "domain": ["Energy","Waste", "Industrial Processes", "Agriculture", "Land Use"],
+          "scheme":"set3"
+        }
+      },
+      "tooltip": [
+        {"field": "Year", "type": "ordinal"},
+        {"field": "Sector", "type": "nominal"},
+        {"field": "Emission", "type": "quantitative"}
+      ]
+    },
+    "transform": [
+        {"filter": {"selection": "industrySelector"}}
+    ]
+}

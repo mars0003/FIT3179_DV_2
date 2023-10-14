@@ -1,0 +1,1490 @@
+[
+  {
+    "Year": 1990,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 180079
+  },
+  {
+    "Year": 1991,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 168595
+  },
+  {
+    "Year": 1992,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 154858
+  },
+  {
+    "Year": 1993,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 141731
+  },
+  {
+    "Year": 1994,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 144394
+  },
+  {
+    "Year": 1995,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 133062
+  },
+  {
+    "Year": 1996,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 132760
+  },
+  {
+    "Year": 1997,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 139889
+  },
+  {
+    "Year": 1998,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 137980
+  },
+  {
+    "Year": 1999,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 140337
+  },
+  {
+    "Year": 2000,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 154903
+  },
+  {
+    "Year": 2001,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 158809
+  },
+  {
+    "Year": 2002,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 155199
+  },
+  {
+    "Year": 2003,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 150816
+  },
+  {
+    "Year": 2004,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 154872
+  },
+  {
+    "Year": 2005,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 161634
+  },
+  {
+    "Year": 2006,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 164544
+  },
+  {
+    "Year": 2007,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 170978
+  },
+  {
+    "Year": 2008,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 167551
+  },
+  {
+    "Year": 2009,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 163482
+  },
+  {
+    "Year": 2010,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 155943
+  },
+  {
+    "Year": 2011,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 156721
+  },
+  {
+    "Year": 2012,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 158772
+  },
+  {
+    "Year": 2013,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 150947
+  },
+  {
+    "Year": 2014,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 149098
+  },
+  {
+    "Year": 2015,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 142597
+  },
+  {
+    "Year": 2016,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 134275
+  },
+  {
+    "Year": 2017,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 137209
+  },
+  {
+    "Year": 2018,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 143478
+  },
+  {
+    "Year": 2019,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 135279
+  },
+  {
+    "Year": 2020,
+    "Code": " NSW ",
+    "State": "New South Wales",
+    "Emissions": 132408
+  },
+  {
+    "Year": 1990,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 193271.65
+  },
+  {
+    "Year": 1991,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 188651.76
+  },
+  {
+    "Year": 1992,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 157823.97
+  },
+  {
+    "Year": 1993,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 152522.19
+  },
+  {
+    "Year": 1994,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 139946.4
+  },
+  {
+    "Year": 1995,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 134498.78
+  },
+  {
+    "Year": 1996,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 142530.01
+  },
+  {
+    "Year": 1997,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 138373.78
+  },
+  {
+    "Year": 1998,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 138617.05
+  },
+  {
+    "Year": 1999,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 152715.63
+  },
+  {
+    "Year": 2000,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 154264.88
+  },
+  {
+    "Year": 2001,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 171127.56
+  },
+  {
+    "Year": 2002,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 179991.51
+  },
+  {
+    "Year": 2003,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 177233.33
+  },
+  {
+    "Year": 2004,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 177025.42
+  },
+  {
+    "Year": 2005,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 197339.33
+  },
+  {
+    "Year": 2006,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 197518.99
+  },
+  {
+    "Year": 2007,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 193755.2
+  },
+  {
+    "Year": 2008,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 194228.54
+  },
+  {
+    "Year": 2009,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 185534.77
+  },
+  {
+    "Year": 2010,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 184149.96
+  },
+  {
+    "Year": 2011,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 179208.42
+  },
+  {
+    "Year": 2012,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 171755.38
+  },
+  {
+    "Year": 2013,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 169477.51
+  },
+  {
+    "Year": 2014,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 169140.17
+  },
+  {
+    "Year": 2015,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 168008.84
+  },
+  {
+    "Year": 2016,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 158783.3
+  },
+  {
+    "Year": 2017,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 163409.04
+  },
+  {
+    "Year": 2018,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 172062.09
+  },
+  {
+    "Year": 2019,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 161178.27
+  },
+  {
+    "Year": 2020,
+    "Code": " QLD ",
+    "State": " Queensland ",
+    "Emissions": 159202.22
+  },
+  {
+    "Year": 1990,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 110632.72
+  },
+  {
+    "Year": 1991,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 112805.72
+  },
+  {
+    "Year": 1992,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 107675.21
+  },
+  {
+    "Year": 1993,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 105960.26
+  },
+  {
+    "Year": 1994,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 106684.88
+  },
+  {
+    "Year": 1995,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 106789.1
+  },
+  {
+    "Year": 1996,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 101270.72
+  },
+  {
+    "Year": 1997,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 103528.67
+  },
+  {
+    "Year": 1998,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 109601.74
+  },
+  {
+    "Year": 1999,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 109966.25
+  },
+  {
+    "Year": 2000,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 115289.02
+  },
+  {
+    "Year": 2001,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 116210.81
+  },
+  {
+    "Year": 2002,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 111986.67
+  },
+  {
+    "Year": 2003,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 118837.53
+  },
+  {
+    "Year": 2004,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 124163.13
+  },
+  {
+    "Year": 2005,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 118586.22
+  },
+  {
+    "Year": 2006,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 123476.87
+  },
+  {
+    "Year": 2007,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 127391.88
+  },
+  {
+    "Year": 2008,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 125425.2
+  },
+  {
+    "Year": 2009,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 136359.89
+  },
+  {
+    "Year": 2010,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 139782.9
+  },
+  {
+    "Year": 2011,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 138640.85
+  },
+  {
+    "Year": 2012,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 132336.2
+  },
+  {
+    "Year": 2013,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 119450.3
+  },
+  {
+    "Year": 2014,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 114840.35
+  },
+  {
+    "Year": 2015,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 114524.2
+  },
+  {
+    "Year": 2016,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 105605.16
+  },
+  {
+    "Year": 2017,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 101783.6
+  },
+  {
+    "Year": 2018,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 93117.06
+  },
+  {
+    "Year": 2019,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 88404.16
+  },
+  {
+    "Year": 2020,
+    "Code": " VIC ",
+    "State": " Victoria  ",
+    "Emissions": 83274.01
+  },
+  {
+    "Year": 1990,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 82367.01
+  },
+  {
+    "Year": 1991,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 81247.15
+  },
+  {
+    "Year": 1992,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 72190.72
+  },
+  {
+    "Year": 1993,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 70578.36
+  },
+  {
+    "Year": 1994,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 76654.06
+  },
+  {
+    "Year": 1995,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 74666.92
+  },
+  {
+    "Year": 1996,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 76440.27
+  },
+  {
+    "Year": 1997,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 80451.65
+  },
+  {
+    "Year": 1998,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 71463.81
+  },
+  {
+    "Year": 1999,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 71519.66
+  },
+  {
+    "Year": 2000,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 71956.48
+  },
+  {
+    "Year": 2001,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 71839.18
+  },
+  {
+    "Year": 2002,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 72596.85
+  },
+  {
+    "Year": 2003,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 82793.11
+  },
+  {
+    "Year": 2004,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 74996.99
+  },
+  {
+    "Year": 2005,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 78534.04
+  },
+  {
+    "Year": 2006,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 82413.05
+  },
+  {
+    "Year": 2007,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 87300.2
+  },
+  {
+    "Year": 2008,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 85067.62
+  },
+  {
+    "Year": 2009,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 89189.91
+  },
+  {
+    "Year": 2010,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 84663.09
+  },
+  {
+    "Year": 2011,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 74231.63
+  },
+  {
+    "Year": 2012,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 76414.12
+  },
+  {
+    "Year": 2013,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 80765.94
+  },
+  {
+    "Year": 2014,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 81925.27
+  },
+  {
+    "Year": 2015,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 83380.41
+  },
+  {
+    "Year": 2016,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 88291.77
+  },
+  {
+    "Year": 2017,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 85223.38
+  },
+  {
+    "Year": 2018,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 87097.5
+  },
+  {
+    "Year": 2019,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 91216.67
+  },
+  {
+    "Year": 2020,
+    "Code": " WA ",
+    "State": " Western Australia ",
+    "Emissions": 82115.84
+  },
+  {
+    "Year": 1990,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 38265.21
+  },
+  {
+    "Year": 1991,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 32380.53
+  },
+  {
+    "Year": 1992,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 30178.33
+  },
+  {
+    "Year": 1993,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 31697.31
+  },
+  {
+    "Year": 1994,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 29595.53
+  },
+  {
+    "Year": 1995,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 27556.59
+  },
+  {
+    "Year": 1996,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 28345.83
+  },
+  {
+    "Year": 1997,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 29058.83
+  },
+  {
+    "Year": 1998,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 28617.89
+  },
+  {
+    "Year": 1999,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 30333.17
+  },
+  {
+    "Year": 2000,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 28500.1
+  },
+  {
+    "Year": 2001,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 30958.1
+  },
+  {
+    "Year": 2002,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 31644.91
+  },
+  {
+    "Year": 2003,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 33362.65
+  },
+  {
+    "Year": 2004,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 32583.84
+  },
+  {
+    "Year": 2005,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 36834.34
+  },
+  {
+    "Year": 2006,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 34990.11
+  },
+  {
+    "Year": 2007,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 36997.84
+  },
+  {
+    "Year": 2008,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 34693.73
+  },
+  {
+    "Year": 2009,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 29893.26
+  },
+  {
+    "Year": 2010,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 25433.71
+  },
+  {
+    "Year": 2011,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 22385.97
+  },
+  {
+    "Year": 2012,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 25155.25
+  },
+  {
+    "Year": 2013,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 26621.65
+  },
+  {
+    "Year": 2014,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 29148.11
+  },
+  {
+    "Year": 2015,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 28286.78
+  },
+  {
+    "Year": 2016,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 25042.82
+  },
+  {
+    "Year": 2017,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 23016.71
+  },
+  {
+    "Year": 2018,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 25858.45
+  },
+  {
+    "Year": 2019,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 24042.27
+  },
+  {
+    "Year": 2020,
+    "Code": " SA ",
+    "State": " South Australia  ",
+    "Emissions": 25376.39
+  },
+  {
+    "Year": 1990,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 17888.21
+  },
+  {
+    "Year": 1991,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 21698.94
+  },
+  {
+    "Year": 1992,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 16605.75
+  },
+  {
+    "Year": 1993,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 14719.01
+  },
+  {
+    "Year": 1994,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 15088.25
+  },
+  {
+    "Year": 1995,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 17064.5
+  },
+  {
+    "Year": 1996,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 15864.77
+  },
+  {
+    "Year": 1997,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 13446.26
+  },
+  {
+    "Year": 1998,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 14632.86
+  },
+  {
+    "Year": 1999,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 14688.37
+  },
+  {
+    "Year": 2000,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 17757.68
+  },
+  {
+    "Year": 2001,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 16724.45
+  },
+  {
+    "Year": 2002,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 13721.14
+  },
+  {
+    "Year": 2003,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 14043.93
+  },
+  {
+    "Year": 2004,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 14232.63
+  },
+  {
+    "Year": 2005,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 13442.13
+  },
+  {
+    "Year": 2006,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 10491.55
+  },
+  {
+    "Year": 2007,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 8872.91
+  },
+  {
+    "Year": 2008,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 11948.02
+  },
+  {
+    "Year": 2009,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 11193.68
+  },
+  {
+    "Year": 2010,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 9661.16
+  },
+  {
+    "Year": 2011,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 9602.69
+  },
+  {
+    "Year": 2012,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 3222.91
+  },
+  {
+    "Year": 2013,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": 410.55
+  },
+  {
+    "Year": 2014,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -673.53
+  },
+  {
+    "Year": 2015,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -1627.53
+  },
+  {
+    "Year": 2016,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -2473.14
+  },
+  {
+    "Year": 2017,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -3154.62
+  },
+  {
+    "Year": 2018,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -3987.68
+  },
+  {
+    "Year": 2019,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -2508.83
+  },
+  {
+    "Year": 2020,
+    "Code": " TAS ",
+    "State": " Tasmania ",
+    "Emissions": -3732.74
+  },
+  {
+    "Year": 1990,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1126.28
+  },
+  {
+    "Year": 1991,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1283.49
+  },
+  {
+    "Year": 1992,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1157.55
+  },
+  {
+    "Year": 1993,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1187.17
+  },
+  {
+    "Year": 1994,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1427.09
+  },
+  {
+    "Year": 1995,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1167.17
+  },
+  {
+    "Year": 1996,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1213.13
+  },
+  {
+    "Year": 1997,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1151.89
+  },
+  {
+    "Year": 1998,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1180.35
+  },
+  {
+    "Year": 1999,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1364.76
+  },
+  {
+    "Year": 2000,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1246.46
+  },
+  {
+    "Year": 2001,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1113.55
+  },
+  {
+    "Year": 2002,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1186.18
+  },
+  {
+    "Year": 2003,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1230.93
+  },
+  {
+    "Year": 2004,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1566.34
+  },
+  {
+    "Year": 2005,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1391.43
+  },
+  {
+    "Year": 2006,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1476.92
+  },
+  {
+    "Year": 2007,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1320.04
+  },
+  {
+    "Year": 2008,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1298.04
+  },
+  {
+    "Year": 2009,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1998.31
+  },
+  {
+    "Year": 2010,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1690.79
+  },
+  {
+    "Year": 2011,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1803.23
+  },
+  {
+    "Year": 2012,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1683.37
+  },
+  {
+    "Year": 2013,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1524.04
+  },
+  {
+    "Year": 2014,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1553.98
+  },
+  {
+    "Year": 2015,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1581.58
+  },
+  {
+    "Year": 2016,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1423.15
+  },
+  {
+    "Year": 2017,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1374.96
+  },
+  {
+    "Year": 2018,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1165.09
+  },
+  {
+    "Year": 2019,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1185.98
+  },
+  {
+    "Year": 2020,
+    "Code": " ACT ",
+    "State": " Australian Capital Territory ",
+    "Emissions": 1134.06
+  },
+  {
+    "Year": 1990,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 16575.26
+  },
+  {
+    "Year": 1991,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 17947.04
+  },
+  {
+    "Year": 1992,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19826.69
+  },
+  {
+    "Year": 1993,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19357.09
+  },
+  {
+    "Year": 1994,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19884.23
+  },
+  {
+    "Year": 1995,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 22229.51
+  },
+  {
+    "Year": 1996,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 24596.33
+  },
+  {
+    "Year": 1997,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 22027
+  },
+  {
+    "Year": 1998,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 24315.04
+  },
+  {
+    "Year": 1999,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 22697.09
+  },
+  {
+    "Year": 2000,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 24767.67
+  },
+  {
+    "Year": 2001,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19451.06
+  },
+  {
+    "Year": 2002,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19459.4
+  },
+  {
+    "Year": 2003,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19577.19
+  },
+  {
+    "Year": 2004,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 11976.26
+  },
+  {
+    "Year": 2005,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 12731.93
+  },
+  {
+    "Year": 2006,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 19094.63
+  },
+  {
+    "Year": 2007,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 18858.56
+  },
+  {
+    "Year": 2008,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 13768.61
+  },
+  {
+    "Year": 2009,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 18163.68
+  },
+  {
+    "Year": 2010,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 12724.5
+  },
+  {
+    "Year": 2011,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 10277.84
+  },
+  {
+    "Year": 2012,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 7771.23
+  },
+  {
+    "Year": 2013,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 11544.52
+  },
+  {
+    "Year": 2014,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 14442.21
+  },
+  {
+    "Year": 2015,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 11755.83
+  },
+  {
+    "Year": 2016,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 13126.22
+  },
+  {
+    "Year": 2017,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 14325.48
+  },
+  {
+    "Year": 2018,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 10237.56
+  },
+  {
+    "Year": 2019,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 17162.25
+  },
+  {
+    "Year": 2020,
+    "Code": " NT ",
+    "State": " Northern Territory ",
+    "Emissions": 17345.02
+  }
+ ]

@@ -1,0 +1,287 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 20px; /* White space around the edges */
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px; /* Space between the image and the pages */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+.Some{
+    color: aqua;
+}
+.map {
+    transform: rotateY(15deg);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    height: 450px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.map2 {
+    transform: rotateY(15deg);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    height: 450px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.page {
+    background-color: #ffffe0; /* Light yellow */
+    width: 360mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    margin: 0 auto 20px; /* Centered with 20px margin at the bottom */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10mm;
+    margin-top: 10mm;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10mm;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+
+
+.overview {
+    margin-bottom: 10mm;
+    margin-top: 10mm;
+    text-align: left;
+    font-size: 14px;
+    margin-left:5mm ;
+    margin-right:5mm ;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+
+
+
+
+}
+.line {
+    transform: rotateY(15deg);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top:20px ;
+    height: 400px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.aus-ind-bar {
+    transform: rotateY(0deg);
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 400px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.state-ind-bar {
+    transform: rotateY(0deg);
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 400px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.vic-ind-bar {
+    transform: rotateY(0deg);
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 400px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.box-plot {
+    transform: rotateY(0deg);
+    padding-top:30px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 500px; /* Adjust this based on the size you need for the map */
+    width: 600px; /* Makes sure it takes full width available */
+    overflow: visible; /* Ensures content isn't cut off */
+}
+.book-page {
+    display: flex;
+    width: 1450px; /* Twice the A4 width */
+    height: 1500px; /* A4 height */
+    background-color: #ffffe0; /* Light yellow */
+    margin: 20px auto; /* Centered with 20px margin at the top and bottom */
+    perspective: 2000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+.book-page1 {
+    display: flex;
+    width: 1450px; /* Twice the A4 width */
+    height: 1500px; /* A4 height */
+    background-color: #ffffe0; /* Light yellow */
+    margin: 20px auto; /* Centered with 20px margin at the top and bottom */
+    perspective: 2000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.05);
+
+}
+.book-page2 {
+    display: flex;
+    width: 1450px; /* Twice the A4 width */
+    height: 1000px; /* A4 height */
+    background-color: #ffffe0; /* Light yellow */
+    margin: 20px auto; /* Centered with 20px margin at the top and bottom */
+    perspective: 2000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+.book-page3 {
+    display: flex;
+    width: 1450px; /* Twice the A4 width */
+    height: 1000px; /* A4 height */
+    background-color: #ffffe0; /* Light yellow */
+    margin: 20px auto; /* Centered with 20px margin at the top and bottom */
+    perspective: 2000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .switch-container {
+        position: absolute;        /* Absolute positioning within the .left-page */
+        top: 600px;                /* Positioning it beneath the .map. Adjust as needed */
+        right: 20px;
+        padding-bottom: 50px;               /* Pushing it to the right side */
+        z-index: 10; 
+  }
+  .switch-container2 {
+    position: absolute;        /* Absolute positioning within the .left-page */
+    top: 500px;                /* Positioning it beneath the .map. Adjust as needed */
+    right: 20px;               /* Pushing it to the right side */
+    z-index: 10;               /* Ensuring it appears above other content if necessary */ 
+}
+.left-page, .right-page {
+    margin-top:15px;
+    flex: 1;
+    height: 95%;
+    background-color: #ffffe0; /* Light yellow */
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.15); /* Inner shadow for page depth */
+}
+
+.left-page {
+    transform: rotateY(5deg);
+    border-right: 1px solid #aaa; /* Midline to distinguish between left and right pages */
+    background-color: #fbfbf3; /* Light yellow */
+
+}
+
+.right-page {
+    transform: rotateY(-5deg);
+    border-left: 1px solid #aaa; /* Midline to distinguish between left and right pages */
+    background-color: #fbfbf3; /* Light yellow */
+
+}
+.left-page1, .right-page1 {
+    margin-top:15px;
+    flex: 1;
+    height: 95%;
+    background-color: #ffffe0; /* Light yellow */
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.15); /* Inner shadow for page depth */
+}
+
+.left-page1 {
+    transform: rotateY(5deg);
+    border-right: 1px solid #aaa; /* Midline to distinguish between left and right pages */
+    background-color: #fbfbf3; /* Light yellow */
+
+}
+
+.right-page1 {
+    transform: rotateY(-5deg);
+    border-left: 1px solid #aaa; /* Midline to distinguish between left and right pages */
+    background-color: #fbfbf3; /* Light yellow */
+
+}
+
+

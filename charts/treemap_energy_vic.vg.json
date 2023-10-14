@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A basic treemap of fuel emissions breakdown",
+  "width": 400,
+  "height": 400,
+  "data": {
+    "values": [
+      {"category": "Energy industries", "emissions": 44371.52095},
+      {"category": "Manufacturing industries and construction", "emissions": 5353.847239},
+      {"category": "Transport", "emissions": 20790.17884},
+      {"category": "Other sectors", "emissions": 9311.743922},
+      {"category": "Fugitive emissions from fuels", "emissions": 2002.028933}
+    ]
+  },
+  "mark": {"type": "rect", "stroke": "#fff"},
+  "encoding": {
+    "color": {
+      "field": "emissions", 
+      "type": "quantitative", 
+      "scale": {"scheme": "blues"},
+      "legend": {"title": "Emissions (kt CO2-e)"}
+    },
+    "size": {"field": "emissions", "type": "quantitative"},
+    "tooltip": [
+      {"field": "category", "type": "nominal", "title": "Fuel Emissions Breakdown"},
+      {"field": "emissions", "type": "quantitative", "title": "Emissions (kt CO2-e)"}
+    ]
+  }
+}

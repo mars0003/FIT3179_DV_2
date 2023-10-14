@@ -1,0 +1,202 @@
+[
+  {
+    "Industry": " Energy ",
+    "State": "New South Wales",
+    "Emission": 103569
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": "New South Wales",
+    "Emission": 12793
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": "New South Wales",
+    "Emission": 15324
+  },
+  {
+    "Industry": " Land Use ",
+    "State": "New South Wales",
+    "Emission": -3126
+  },
+  {
+    "Industry": " Waste ",
+    "State": "New South Wales",
+    "Emission": 3846
+  },
+  {
+    "Industry": " Energy ",
+    "State": " Queensland ",
+    "Emission": 118307
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " Queensland ",
+    "Emission": 5764
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " Queensland ",
+    "Emission": 19915
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " Queensland ",
+    "Emission": 12473
+  },
+  {
+    "Industry": " Waste ",
+    "State": " Queensland ",
+    "Emission": 2743
+  },
+  {
+    "Industry": " Energy ",
+    "State": " Victoria  ",
+    "Emission": 81829
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " Victoria  ",
+    "Emission": 3582
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " Victoria  ",
+    "Emission": 16101
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " Victoria  ",
+    "Emission": -21054
+  },
+  {
+    "Industry": " Waste ",
+    "State": " Victoria  ",
+    "Emission": 2815
+  },
+  {
+    "Industry": " Energy ",
+    "State": " Western Australia ",
+    "Emission": 80011
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " Western Australia ",
+    "Emission": 4728
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " Western Australia ",
+    "Emission": 9759
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " Western Australia ",
+    "Emission": -14121
+  },
+  {
+    "Industry": " Waste ",
+    "State": " Western Australia ",
+    "Emission": 1927
+  },
+  {
+    "Industry": " Energy ",
+    "State": " South Australia  ",
+    "Emission": 17015
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " South Australia  ",
+    "Emission": 3498
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " South Australia  ",
+    "Emission": 5811
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " South Australia  ",
+    "Emission": -1699
+  },
+  {
+    "Industry": " Waste ",
+    "State": " South Australia  ",
+    "Emission": 872
+  },
+  {
+    "Industry": " Energy ",
+    "State": " Tasmania ",
+    "Emission": 3349
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " Tasmania ",
+    "Emission": 1715
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " Tasmania ",
+    "Emission": 2691
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " Tasmania ",
+    "Emission": -11644
+  },
+  {
+    "Industry": " Waste ",
+    "State": " Tasmania ",
+    "Emission": 372
+  },
+  {
+    "Industry": " Energy ",
+    "State": " Australian Capital Territory ",
+    "Emission": 939
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " Australian Capital Territory ",
+    "Emission": 175
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " Australian Capital Territory ",
+    "Emission": 15
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " Australian Capital Territory ",
+    "Emission": -217
+  },
+  {
+    "Industry": " Waste ",
+    "State": " Australian Capital Territory ",
+    "Emission": 205
+  },
+  {
+    "Industry": " Energy ",
+    "State": " Northern Territory ",
+    "Emission": 13636
+  },
+  {
+    "Industry": " Industrial Processes ",
+    "State": " Northern Territory ",
+    "Emission": 133
+  },
+  {
+    "Industry": " Agriculture ",
+    "State": " Northern Territory ",
+    "Emission": 3011
+  },
+  {
+    "Industry": " Land Use ",
+    "State": " Northern Territory ",
+    "Emission": 368
+  },
+  {
+    "Industry": " Waste ",
+    "State": " Northern Territory ",
+    "Emission": 197
+  }
+ ]

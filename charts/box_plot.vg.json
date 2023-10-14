@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A box plot showing emissions in different Australian states.",
+  "background":"#fbfbf3",
+  "width": 479,
+  "height": 300,
+  "data": {"url": "../Data/aus_CO2_emissions_time.json"},
+  "layer": [
+    {
+      "mark": "boxplot",
+      "selection": {
+        "stateFilter": {
+            "type": "single", 
+            "fields": ["State"],
+            "bind": {
+                  "input": "select", 
+                  "options": [null,"New South Wales", " Victoria  ", " Queensland ", " South Australia  ", " Western Australia ", " Tasmania ", " Australian Capital Territory ", " Northern Territory "],
+                  "labels": ["Show all", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"],
+                  "name": "State: "
+            }
+        }
+    },
+      "encoding": {
+        "x": {"field": "State", "type": "ordinal"},
+        "y": {"field": "Emissions", "type": "quantitative"},
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "title": "State"
+        }
+      }
+    },
+    {
+      "mark": "point",
+      "encoding": {
+        "x": {"field": "State", "type": "ordinal"},
+        "y": {
+          "field": "Emissions",
+          "type": "quantitative",
+          "aggregate": "max"
+        },
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "ordinal",
+            "aggregate": {"argmax": "Emissions"}
+          },
+          {
+            "field": "Emissions",
+            "type": "quantitative",
+            "aggregate": "max",
+            "title": "Max Emissions"
+          }
+        ]
+      }
+    },
+    {
+      "mark": "point",
+      "encoding": {
+        "x": {"field": "State", "type": "ordinal"},
+        "y": {
+          "field": "Emissions",
+          "type": "quantitative",
+          "aggregate": "min"
+        },
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "ordinal",
+            "aggregate": {"argmin": "Emissions"}
+          },
+          {
+            "field": "Emissions",
+            "type": "quantitative",
+            "aggregate": "min",
+            "title": "Min Emissions"
+          }
+        ]
+      }
+    }
+  ]
+
+}

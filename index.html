@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprints Visualization</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="src/scripts.js"></script>
+
+
+</head>
+<body>
+    <div class="image-container">
+        <img src="Data/some.png" alt="Mapping Carbon Footprints">
+    </div>
+
+    <div class="image-container">
+        <img src="Data/some.png" alt="Mapping Carbon Footprints">
+    </div>
+    <div class="book-page">
+            <div class="left-page">
+                <div class="title">Overview of Carbon Emissions in Australia</div>
+                <div class="overview">Australia's carbon emissions have been a topic of global concern. As we strive for a sustainable future, tracking our carbon footprint becomes crucial. The provided charts offer an insight into the carbon emissions of different Australian states, helping us identify areas of concern and potential improvements.</div>
+                <div class="map" id = "map"></div>
+                <div class="map2" id="map2" style="display: none;"></div>
+                
+                <div class = "switch-container">
+                    <span class="switch-desc">2000</span>
+                    <label class="switch">
+                        <input type="checkbox" onchange="switchChart()">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="switch-desc">2020</span>
+                </div>
+                <div class="overview">In 2000, Northern Territory exhibited the highest CO2 emissions per capita, followed closely by Western Australia.
+                    By 2020, while Northern Territory continued to be at the forefront, there was a noticeable shift in the emission patterns of other states. Queensland, for instance, saw an upward trend, whereas states like Victoria maintained a relatively consistent emission rate.
+                </div>
+                <div class="subtitle">Emissions Trend from 1990 to 2020</div>
+                <div class="line" id = "line"></div>
+                <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
+                    The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
+                    States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
+                    It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+                .</div>
+                     
+            </div>
+            <div class="right-page">
+            <div class="box-plot" id="box-plot" ></div>
+            <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
+                The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
+                States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
+                It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+            </div>
+            <div class="subtitle">Change in Sector Emissions </div>
+            <div class="aus-ind-bar" id="aus-ind-bar" ></div>
+            <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
+                The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
+                States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
+                It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+            </div>
+            <button onclick="switchPage()">Next Page</button>
+
+            <!--<div class="line" id = "line">Line chart</div>-->
+            </div>
+    </div>
+    </div>
+    <div class="book-page1" style="display:none;" >
+        <div class="left-page1">
+            <div class="title">Overview of Carbon Emissions in Victoria</div>
+            <div class="overview">Australia's carbon emissions have been a topic of global concern. As we strive for a sustainable future, tracking our carbon footprint becomes crucial. The provided charts offer an insight into the carbon emissions of different Australian states, helping us identify areas of concern and potential improvements.</div>
+
+            <div class="subtitle">Emissions by Sector in 2020 Comparitive to Other States</div>
+            <div class="state-ind-bar" id="state-ind-bar" ></div>
+
+            <div class="overview">Australia's carbon emissions have been a topic of global concern. As we strive for a sustainable future, tracking our carbon footprint becomes crucial. The provided charts offer an insight into the carbon emissions of different Australian states, helping us identify areas of concern and potential improvements.</div>
+            <div class="subtitle">Sector Emissions Trend from 1990 to 2020</div>
+            <div class="vic-ind-bar" id="vic-ind-bar" ></div>
+            <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
+                The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
+                States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
+                It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+            .</div>
+            <button onclick="switchPage()">Previous Page</button>
+
+                 
+        </div>
+        <div class="right-page1">
+        <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
+            The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
+            States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
+            It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+        </div>
+        <div class="aus-ind-bar" id="aus-ind-bar" ></div>
+        <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
+            The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
+            States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
+            It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+        </div>
+        <!--<div class="line" id = "line">Line chart</div>-->
+        </div>
+</div>
+</div>
+
+
+    
+
+    <script>
+        // Embed the Vega-Lite visualization  
+    vegaEmbed('#map', 'charts/map_chloropeth_2000.vg.json');
+    vegaEmbed('#map2', 'charts/map_chloropeth_2020.vg.json');
+    vegaEmbed('#line', 'charts/line_chart.vg.json');
+    vegaEmbed('#box-plot', 'charts/box_plot.vg.json');
+    vegaEmbed('#aus-ind-bar', 'charts/bar_ind_aus.vg.json');
+    vegaEmbed('#state-ind-bar', 'charts/bar_ind_state.vg.json');
+    vegaEmbed('#vic-ind-bar', 'charts/bar_vic_ind_time.vg.json');
+
+
+
+    </script>
+</body>
+</html>

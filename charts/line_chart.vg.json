@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Net emissions per year for each state",
+  "background":"#fbfbf3",
+  "width": 479,
+  "height": 300,
+  "data": {
+      "url": "../Data/aus_CO2_emissions_time.json"
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "selection": {
+      "stateFilter": {
+          "type": "single", 
+          "fields": ["State"],
+          "bind": {
+                "input": "select", 
+                "options": [null,"New South Wales", " Victoria  ", " Queensland ", " South Australia  ", " Western Australia ", " Tasmania ", " Australian Capital Territory ", " Northern Territory "],
+                "labels": ["Show all", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"],
+                "name": "State: "
+          }
+      }
+  },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "Emissions",
+          "type": "quantitative",
+          "title": "Net Emissions (kt CO2-e)"
+        },
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "title": "State"
+        },
+        "tooltip": [
+          {"field": "State", "type": "nominal"},
+          {"field": "Year", "type": "ordinal"},
+          {"field": "Emissions", "type": "quantitative", "title": "Net Emissions"}
+        ]
+      }
+    },
+    {
+"mark": "rule",
+"encoding": {
+  "x": {"field": "Year"},
+  "color": {"value": "grey"},
+  "size": {"value": 1},
+  "opacity": {
+    "condition": {
+        "test": "datum['Year'] == 2011 || datum['Year'] == 2000 ",
+        "value": 1
+    },
+"value": 0
+}
+}},
+{"mark": {
+"type": "text",
+"align": "left",
+"baseline": "middle",
+"dx": -1,
+"dy":75,
+"fontSize": 10,
+"fontStyle": "italic"
+},
+      "transform": [{"lookup": "Year", "from": {"data": {"url": "../Data/acts.csv"}, "key": "Year", "fields": ["Act Name"]}}],
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {"value": 10},
+        "text": {"field": "Act Name", "type": "nominal"},
+        "opacity": {
+    "condition": {
+        "test": "datum['Year'] == 2000 ",
+        "value": 1
+    },
+"value": 0
+}
+      }
+    },
+    {"mark": {
+      "type": "text",
+      "align": "left",
+      "baseline": "middle",
+      "dx": -1,
+      "dy":100,
+      "fontSize": 10,
+      "fontStyle": "italic"
+      },
+            "transform": [{"lookup": "Year", "from": {"data": {"url": "../Data/acts.csv"}, "key": "Year", "fields": ["Act Name"]}}],
+            "encoding": {
+              "x": {"field": "Year", "type": "ordinal"},
+              "y": {"value": 10},
+              "text": {"field": "Act Name", "type": "nominal"},
+              "opacity": {
+          "condition": {
+              "test": "datum['Year'] == 2011  ",
+              "value": 1
+          },
+      "value": 0
+      }
+            }
+          }
+
+],
+
+  "transform": [
+        {"filter": {"selection": "stateFilter"}}
+    ]
+}

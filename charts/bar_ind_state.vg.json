@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A grouped bar chart showing the emissions per industry in 2000 and 2020.",
+  "background": "#fbfbf3",
+  "width": 479,
+  "height": 300,
+  "data": {
+      "url": "../Data/state_CO2_industry.json"
+  },
+  "selection": {
+      "select_state": {
+          "type": "multi",
+          "fields": ["State"],
+          "bind": "legend"
+      }
+  },
+  "mark": "bar",
+  "encoding": {
+      "x": {"field": "Industry", "type": "nominal"},
+      "y": {"field": "Emission", "type": "quantitative"},
+      "xOffset": {"field": "State", "type": "nominal"},
+      "color": {
+          "field": "State",
+          "type": "nominal",
+          "legend": {"title": "State"}
+      },
+      "opacity": {
+          "condition": {"selection": "select_state", "value": 1},
+          "value": 0
+      }
+  }
+}

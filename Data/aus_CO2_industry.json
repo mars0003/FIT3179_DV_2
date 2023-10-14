@@ -1,0 +1,52 @@
+[
+    {
+      "Industry": "Energy",
+      "Year": 2020,
+      "Emission": 419640
+    },
+    {
+      "Industry": "Industrial Processes",
+      "Year": 2020,
+      "Emission": 31884
+    },
+    {
+      "Industry": "Agriculture",
+      "Year": 2020,
+      "Emission": 72627
+    },
+    {
+      "Industry": "Land Use",
+      "Year": 2020,
+      "Emission": -39019
+    },
+    {
+      "Industry": "Waste",
+      "Year": 2020,
+      "Emission": 12981
+    },
+    {
+      "Industry": "Energy",
+      "Year": 2000,
+      "Emission": 368191
+    },
+    {
+      "Industry": "Industrial Processes",
+      "Year": 2000,
+      "Emission": 25720
+    },
+    {
+      "Industry": "Agriculture",
+      "Year": 2000,
+      "Emission": 88716
+    },
+    {
+      "Industry": "Land Use",
+      "Year": 2000,
+      "Emission": 67985
+    },
+    {
+      "Industry": "Waste",
+      "Year": 2000,
+      "Emission": 18728
+    }
+   ]

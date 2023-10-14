@@ -1,0 +1,777 @@
+[
+    {
+      "Year": 1990,
+      "Sector": "Energy",
+      "Emission": 79340.24
+    },
+    {
+      "Year": 1991,
+      "Sector": "Energy",
+      "Emission": 80683.77
+    },
+    {
+      "Year": 1992,
+      "Sector": "Energy",
+      "Emission": 82230.47
+    },
+    {
+      "Year": 1993,
+      "Sector": "Energy",
+      "Emission": 80594.37
+    },
+    {
+      "Year": 1994,
+      "Sector": "Energy",
+      "Emission": 80386.66
+    },
+    {
+      "Year": 1995,
+      "Sector": "Energy",
+      "Emission": 84529.47
+    },
+    {
+      "Year": 1996,
+      "Sector": "Energy",
+      "Emission": 87047.91
+    },
+    {
+      "Year": 1997,
+      "Sector": "Energy",
+      "Emission": 89694.11
+    },
+    {
+      "Year": 1998,
+      "Sector": "Energy",
+      "Emission": 96274.38
+    },
+    {
+      "Year": 1999,
+      "Sector": "Energy",
+      "Emission": 98209.66
+    },
+    {
+      "Year": 2000,
+      "Sector": "Energy",
+      "Emission": 100187.07
+    },
+    {
+      "Year": 2001,
+      "Sector": "Energy",
+      "Emission": 99816.31
+    },
+    {
+      "Year": 2002,
+      "Sector": "Energy",
+      "Emission": 98023.57
+    },
+    {
+      "Year": 2003,
+      "Sector": "Energy",
+      "Emission": 100763.98
+    },
+    {
+      "Year": 2004,
+      "Sector": "Energy",
+      "Emission": 105622.66
+    },
+    {
+      "Year": 2005,
+      "Sector": "Energy",
+      "Emission": 104511.34
+    },
+    {
+      "Year": 2006,
+      "Sector": "Energy",
+      "Emission": 104670
+    },
+    {
+      "Year": 2007,
+      "Sector": "Energy",
+      "Emission": 103245.97
+    },
+    {
+      "Year": 2008,
+      "Sector": "Energy",
+      "Emission": 104265.65
+    },
+    {
+      "Year": 2009,
+      "Sector": "Energy",
+      "Emission": 107041.02
+    },
+    {
+      "Year": 2010,
+      "Sector": "Energy",
+      "Emission": 106459.17
+    },
+    {
+      "Year": 2011,
+      "Sector": "Energy",
+      "Emission": 106869.51
+    },
+    {
+      "Year": 2012,
+      "Sector": "Energy",
+      "Emission": 109158.22
+    },
+    {
+      "Year": 2013,
+      "Sector": "Energy",
+      "Emission": 101180.11
+    },
+    {
+      "Year": 2014,
+      "Sector": "Energy",
+      "Emission": 99778.02
+    },
+    {
+      "Year": 2015,
+      "Sector": "Energy",
+      "Emission": 104263.58
+    },
+    {
+      "Year": 2016,
+      "Sector": "Energy",
+      "Emission": 101950.97
+    },
+    {
+      "Year": 2017,
+      "Sector": "Energy",
+      "Emission": 98912.29
+    },
+    {
+      "Year": 2018,
+      "Sector": "Energy",
+      "Emission": 89573.29
+    },
+    {
+      "Year": 2019,
+      "Sector": "Energy",
+      "Emission": 86289.31
+    },
+    {
+      "Year": 2020,
+      "Sector": "Energy",
+      "Emission": 81829.32
+    },
+    {
+      "Year": 1990,
+      "Sector": "Industrial Processes",
+      "Emission": 2517.74
+    },
+    {
+      "Year": 1991,
+      "Sector": "Industrial Processes",
+      "Emission": 2494.58
+    },
+    {
+      "Year": 1992,
+      "Sector": "Industrial Processes",
+      "Emission": 2459.69
+    },
+    {
+      "Year": 1993,
+      "Sector": "Industrial Processes",
+      "Emission": 2286.08
+    },
+    {
+      "Year": 1994,
+      "Sector": "Industrial Processes",
+      "Emission": 1891.09
+    },
+    {
+      "Year": 1995,
+      "Sector": "Industrial Processes",
+      "Emission": 1753.1
+    },
+    {
+      "Year": 1996,
+      "Sector": "Industrial Processes",
+      "Emission": 1632.11
+    },
+    {
+      "Year": 1997,
+      "Sector": "Industrial Processes",
+      "Emission": 1620.88
+    },
+    {
+      "Year": 1998,
+      "Sector": "Industrial Processes",
+      "Emission": 1878.56
+    },
+    {
+      "Year": 1999,
+      "Sector": "Industrial Processes",
+      "Emission": 1844.86
+    },
+    {
+      "Year": 2000,
+      "Sector": "Industrial Processes",
+      "Emission": 1961.62
+    },
+    {
+      "Year": 2001,
+      "Sector": "Industrial Processes",
+      "Emission": 2226.73
+    },
+    {
+      "Year": 2002,
+      "Sector": "Industrial Processes",
+      "Emission": 2344.9
+    },
+    {
+      "Year": 2003,
+      "Sector": "Industrial Processes",
+      "Emission": 2492.44
+    },
+    {
+      "Year": 2004,
+      "Sector": "Industrial Processes",
+      "Emission": 2610.42
+    },
+    {
+      "Year": 2005,
+      "Sector": "Industrial Processes",
+      "Emission": 2811.38
+    },
+    {
+      "Year": 2006,
+      "Sector": "Industrial Processes",
+      "Emission": 2655.96
+    },
+    {
+      "Year": 2007,
+      "Sector": "Industrial Processes",
+      "Emission": 2842.41
+    },
+    {
+      "Year": 2008,
+      "Sector": "Industrial Processes",
+      "Emission": 2947.36
+    },
+    {
+      "Year": 2009,
+      "Sector": "Industrial Processes",
+      "Emission": 3191.22
+    },
+    {
+      "Year": 2010,
+      "Sector": "Industrial Processes",
+      "Emission": 3283.8
+    },
+    {
+      "Year": 2011,
+      "Sector": "Industrial Processes",
+      "Emission": 3544.9
+    },
+    {
+      "Year": 2012,
+      "Sector": "Industrial Processes",
+      "Emission": 3572.7
+    },
+    {
+      "Year": 2013,
+      "Sector": "Industrial Processes",
+      "Emission": 3413.8
+    },
+    {
+      "Year": 2014,
+      "Sector": "Industrial Processes",
+      "Emission": 3313.67
+    },
+    {
+      "Year": 2015,
+      "Sector": "Industrial Processes",
+      "Emission": 3151.04
+    },
+    {
+      "Year": 2016,
+      "Sector": "Industrial Processes",
+      "Emission": 3206.85
+    },
+    {
+      "Year": 2017,
+      "Sector": "Industrial Processes",
+      "Emission": 3164.01
+    },
+    {
+      "Year": 2018,
+      "Sector": "Industrial Processes",
+      "Emission": 3280.46
+    },
+    {
+      "Year": 2019,
+      "Sector": "Industrial Processes",
+      "Emission": 3544.03
+    },
+    {
+      "Year": 2020,
+      "Sector": "Industrial Processes",
+      "Emission": 3582.44
+    },
+    {
+      "Year": 1990,
+      "Sector": "Agriculture",
+      "Emission": 16995.75
+    },
+    {
+      "Year": 1991,
+      "Sector": "Agriculture",
+      "Emission": 16623.31
+    },
+    {
+      "Year": 1992,
+      "Sector": "Agriculture",
+      "Emission": 16243.8
+    },
+    {
+      "Year": 1993,
+      "Sector": "Agriculture",
+      "Emission": 15843.69
+    },
+    {
+      "Year": 1994,
+      "Sector": "Agriculture",
+      "Emission": 16436.25
+    },
+    {
+      "Year": 1995,
+      "Sector": "Agriculture",
+      "Emission": 16039.23
+    },
+    {
+      "Year": 1996,
+      "Sector": "Agriculture",
+      "Emission": 16621.27
+    },
+    {
+      "Year": 1997,
+      "Sector": "Agriculture",
+      "Emission": 16870.11
+    },
+    {
+      "Year": 1998,
+      "Sector": "Agriculture",
+      "Emission": 16202.93
+    },
+    {
+      "Year": 1999,
+      "Sector": "Agriculture",
+      "Emission": 16426.34
+    },
+    {
+      "Year": 2000,
+      "Sector": "Agriculture",
+      "Emission": 17503.09
+    },
+    {
+      "Year": 2001,
+      "Sector": "Agriculture",
+      "Emission": 17846.86
+    },
+    {
+      "Year": 2002,
+      "Sector": "Agriculture",
+      "Emission": 17931.59
+    },
+    {
+      "Year": 2003,
+      "Sector": "Agriculture",
+      "Emission": 17093.67
+    },
+    {
+      "Year": 2004,
+      "Sector": "Agriculture",
+      "Emission": 17137.18
+    },
+    {
+      "Year": 2005,
+      "Sector": "Agriculture",
+      "Emission": 18063.92
+    },
+    {
+      "Year": 2006,
+      "Sector": "Agriculture",
+      "Emission": 17066.96
+    },
+    {
+      "Year": 2007,
+      "Sector": "Agriculture",
+      "Emission": 16176.18
+    },
+    {
+      "Year": 2008,
+      "Sector": "Agriculture",
+      "Emission": 15373.87
+    },
+    {
+      "Year": 2009,
+      "Sector": "Agriculture",
+      "Emission": 14979.69
+    },
+    {
+      "Year": 2010,
+      "Sector": "Agriculture",
+      "Emission": 14858.83
+    },
+    {
+      "Year": 2011,
+      "Sector": "Agriculture",
+      "Emission": 15567.05
+    },
+    {
+      "Year": 2012,
+      "Sector": "Agriculture",
+      "Emission": 16452.43
+    },
+    {
+      "Year": 2013,
+      "Sector": "Agriculture",
+      "Emission": 16200.25
+    },
+    {
+      "Year": 2014,
+      "Sector": "Agriculture",
+      "Emission": 16380.28
+    },
+    {
+      "Year": 2015,
+      "Sector": "Agriculture",
+      "Emission": 16130.27
+    },
+    {
+      "Year": 2016,
+      "Sector": "Agriculture",
+      "Emission": 15101.32
+    },
+    {
+      "Year": 2017,
+      "Sector": "Agriculture",
+      "Emission": 16340.07
+    },
+    {
+      "Year": 2018,
+      "Sector": "Agriculture",
+      "Emission": 16682.08
+    },
+    {
+      "Year": 2019,
+      "Sector": "Agriculture",
+      "Emission": 15569.66
+    },
+    {
+      "Year": 2020,
+      "Sector": "Agriculture",
+      "Emission": 16101.41
+    },
+    {
+      "Year": 1990,
+      "Sector": "Land Use",
+      "Emission": 5371.04
+    },
+    {
+      "Year": 1991,
+      "Sector": "Land Use",
+      "Emission": 6782.42
+    },
+    {
+      "Year": 1992,
+      "Sector": "Land Use",
+      "Emission": 587.13
+    },
+    {
+      "Year": 1993,
+      "Sector": "Land Use",
+      "Emission": 1156.35
+    },
+    {
+      "Year": 1994,
+      "Sector": "Land Use",
+      "Emission": 2165.31
+    },
+    {
+      "Year": 1995,
+      "Sector": "Land Use",
+      "Emission": -1319.62
+    },
+    {
+      "Year": 1996,
+      "Sector": "Land Use",
+      "Emission": -9099.48
+    },
+    {
+      "Year": 1997,
+      "Sector": "Land Use",
+      "Emission": -9652.07
+    },
+    {
+      "Year": 1998,
+      "Sector": "Land Use",
+      "Emission": -9435.74
+    },
+    {
+      "Year": 1999,
+      "Sector": "Land Use",
+      "Emission": -11326.78
+    },
+    {
+      "Year": 2000,
+      "Sector": "Land Use",
+      "Emission": -8705.72
+    },
+    {
+      "Year": 2001,
+      "Sector": "Land Use",
+      "Emission": -8114.86
+    },
+    {
+      "Year": 2002,
+      "Sector": "Land Use",
+      "Emission": -10984.12
+    },
+    {
+      "Year": 2003,
+      "Sector": "Land Use",
+      "Emission": -5783.22
+    },
+    {
+      "Year": 2004,
+      "Sector": "Land Use",
+      "Emission": -5431.37
+    },
+    {
+      "Year": 2005,
+      "Sector": "Land Use",
+      "Emission": -11016.31
+    },
+    {
+      "Year": 2006,
+      "Sector": "Land Use",
+      "Emission": -5101.95
+    },
+    {
+      "Year": 2007,
+      "Sector": "Land Use",
+      "Emission": 1045.05
+    },
+    {
+      "Year": 2008,
+      "Sector": "Land Use",
+      "Emission": -1181.09
+    },
+    {
+      "Year": 2009,
+      "Sector": "Land Use",
+      "Emission": 7061.87
+    },
+    {
+      "Year": 2010,
+      "Sector": "Land Use",
+      "Emission": 11261.83
+    },
+    {
+      "Year": 2011,
+      "Sector": "Land Use",
+      "Emission": 9098.62
+    },
+    {
+      "Year": 2012,
+      "Sector": "Land Use",
+      "Emission": -76.93
+    },
+    {
+      "Year": 2013,
+      "Sector": "Land Use",
+      "Emission": -3618.91
+    },
+    {
+      "Year": 2014,
+      "Sector": "Land Use",
+      "Emission": -7017.68
+    },
+    {
+      "Year": 2015,
+      "Sector": "Land Use",
+      "Emission": -11890.66
+    },
+    {
+      "Year": 2016,
+      "Sector": "Land Use",
+      "Emission": -17496.29
+    },
+    {
+      "Year": 2017,
+      "Sector": "Land Use",
+      "Emission": -19735.01
+    },
+    {
+      "Year": 2018,
+      "Sector": "Land Use",
+      "Emission": -19247.61
+    },
+    {
+      "Year": 2019,
+      "Sector": "Land Use",
+      "Emission": -19826.55
+    },
+    {
+      "Year": 2020,
+      "Sector": "Land Use",
+      "Emission": -21054.17
+    },
+    {
+      "Year": 1990,
+      "Sector": "Waste",
+      "Emission": 6407.95
+    },
+    {
+      "Year": 1991,
+      "Sector": "Waste",
+      "Emission": 6221.64
+    },
+    {
+      "Year": 1992,
+      "Sector": "Waste",
+      "Emission": 6154.11
+    },
+    {
+      "Year": 1993,
+      "Sector": "Waste",
+      "Emission": 6079.78
+    },
+    {
+      "Year": 1994,
+      "Sector": "Waste",
+      "Emission": 5805.58
+    },
+    {
+      "Year": 1995,
+      "Sector": "Waste",
+      "Emission": 5786.92
+    },
+    {
+      "Year": 1996,
+      "Sector": "Waste",
+      "Emission": 5068.91
+    },
+    {
+      "Year": 1997,
+      "Sector": "Waste",
+      "Emission": 4995.64
+    },
+    {
+      "Year": 1998,
+      "Sector": "Waste",
+      "Emission": 4681.61
+    },
+    {
+      "Year": 1999,
+      "Sector": "Waste",
+      "Emission": 4812.17
+    },
+    {
+      "Year": 2000,
+      "Sector": "Waste",
+      "Emission": 4342.97
+    },
+    {
+      "Year": 2001,
+      "Sector": "Waste",
+      "Emission": 4435.77
+    },
+    {
+      "Year": 2002,
+      "Sector": "Waste",
+      "Emission": 4670.74
+    },
+    {
+      "Year": 2003,
+      "Sector": "Waste",
+      "Emission": 4270.66
+    },
+    {
+      "Year": 2004,
+      "Sector": "Waste",
+      "Emission": 4224.24
+    },
+    {
+      "Year": 2005,
+      "Sector": "Waste",
+      "Emission": 4215.88
+    },
+    {
+      "Year": 2006,
+      "Sector": "Waste",
+      "Emission": 4185.9
+    },
+    {
+      "Year": 2007,
+      "Sector": "Waste",
+      "Emission": 4082.27
+    },
+    {
+      "Year": 2008,
+      "Sector": "Waste",
+      "Emission": 4019.4
+    },
+    {
+      "Year": 2009,
+      "Sector": "Waste",
+      "Emission": 4086.09
+    },
+    {
+      "Year": 2010,
+      "Sector": "Waste",
+      "Emission": 3919.26
+    },
+    {
+      "Year": 2011,
+      "Sector": "Waste",
+      "Emission": 3560.76
+    },
+    {
+      "Year": 2012,
+      "Sector": "Waste",
+      "Emission": 3229.78
+    },
+    {
+      "Year": 2013,
+      "Sector": "Waste",
+      "Emission": 2275.04
+    },
+    {
+      "Year": 2014,
+      "Sector": "Waste",
+      "Emission": 2386.07
+    },
+    {
+      "Year": 2015,
+      "Sector": "Waste",
+      "Emission": 2869.97
+    },
+    {
+      "Year": 2016,
+      "Sector": "Waste",
+      "Emission": 2842.31
+    },
+    {
+      "Year": 2017,
+      "Sector": "Waste",
+      "Emission": 3102.24
+    },
+    {
+      "Year": 2018,
+      "Sector": "Waste",
+      "Emission": 2828.84
+    },
+    {
+      "Year": 2019,
+      "Sector": "Waste",
+      "Emission": 2827.71
+    },
+    {
+      "Year": 2020,
+      "Sector": "Waste",
+      "Emission": 2815.01
+    }
+   ]
