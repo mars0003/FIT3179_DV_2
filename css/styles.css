@@ -129,7 +129,7 @@ body {
 }
 .book-page {
     display: flex;
-    width: 90%; /* Twice the A4 width */
+    width: 100%; /* Twice the A4 width */
     height: 1500px; /* A4 height */
     background-color: #ffffe0; /* Light yellow */
     margin: 20px auto; /* Centered with 20px margin at the top and bottom */
@@ -138,7 +138,7 @@ body {
 }
 .book-page1 {
     display: flex;
-    width: 95%; /* Twice the A4 width */
+    width: 100%; /* Twice the A4 width */
     height: 1500px; /* A4 height */
     background-color: #ffffe0; /* Light yellow */
     margin: 20px auto; /* Centered with 20px margin at the top and bottom */
@@ -148,7 +148,7 @@ body {
 }
 .book-page2 {
     display: flex;
-    width: 90%; /* Twice the A4 width */
+    width: 97%; /* Twice the A4 width */
     height: 1000px; /* A4 height */
     background-color: #ffffe0; /* Light yellow */
     margin: 20px auto; /* Centered with 20px margin at the top and bottom */
