@@ -24,8 +24,8 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-    height: 450px;
-    width: 600px; 
+    height: 95%;
+    width: 95%; 
     overflow: visible; 
 }
 .map2 {
@@ -203,7 +203,7 @@ body {
 }
 .book-page {
     display: flex;
-    width: 100%; 
+    width: 1450px; 
     height: 1500px; 
     background-color: #ffffe0; 
     margin: 20px auto; 
@@ -212,7 +212,7 @@ body {
 }
 .book-page1 {
     display: flex;
-    width: 100%; 
+    width: 1450px; 
     height: 1500px;
     background-color: #ffffe0; 
     margin: 20px auto; 
