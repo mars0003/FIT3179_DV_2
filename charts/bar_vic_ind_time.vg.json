@@ -31,7 +31,9 @@
       "y": {
         "field": "Emission",
         "type": "quantitative",
-        "stack": "zero"      },
+        "stack": "zero" ,     
+        "title": "Emission (kt CO2-e)"
+      },
       "color": {
         "field": "Sector",
         "type": "nominal",
@@ -40,7 +42,7 @@
         },
         "scale": {
           "domain": ["Energy","Waste", "Industrial Processes", "Agriculture", "Land Use"],
-          "scheme":"set3"
+          "range":["#c36d43","#bfbadb","#fb8072" ,"#81b1d3" ,"#8ed3c7"]
         }
       },
       "tooltip": [

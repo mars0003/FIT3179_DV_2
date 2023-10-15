@@ -1,25 +1,41 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A donut chart showing fuel emissions breakdown.",
-    "background": "#fbfbf3",
-    "width": 479,
-    "height": 300,
-    "data": {
-      "values": [
-        {"Fuel Emissions Breakdown": "Energy industries", "Emissions": 44371.52095},
-        {"Fuel Emissions Breakdown": "Manufacturing industries and construction", "Emissions": 5353.847239},
-        {"Fuel Emissions Breakdown": "Transport", "Emissions": 20790.17884},
-        {"Fuel Emissions Breakdown": "Other sectors", "Emissions": 9311.743922},
-        {"Fuel Emissions Breakdown": "Fugitive emissions from fuels", "Emissions": 2002.028933}
-      ]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A donut chart showing fuel emissions breakdown.",
+  "background": "#fbfbf3",
+  "width": 479,
+  "height": 300,
+  "data": {
+    "url": "charts/vic_fuel_2020.json"
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {
+      "field": "Emissions",
+      "type": "quantitative",
+      "title": "Emissions (kt CO2-e)"
     },
-    "mark": {"type": "arc", "innerRadius": 50},
-    "encoding": {
-      "theta": {"field": "Emissions", "type": "quantitative"},
-      "color": {"field": "Fuel Emissions Breakdown", "type": "nominal", "legend": {"title": "Fuel Emissions Breakdown"}, "scale": {
-        "scheme":"browns"
+    "color": {
+      "field": "Fuel Emissions Breakdown",
+      "type": "nominal",
+      "legend": {
+        "title": "Fuel Emissions Breakdown"
+      },
+      "scale": {
+        "scheme": "browns"
       }
-    }},
-    "view": {"stroke": null}
-  }
-  
+    },
+    "tooltip": [
+      {
+        "field": "Fuel Emissions Breakdown",
+        "type": "nominal",
+        "title": "Fuel Emissions Breakdown"
+      },
+      {
+        "field": "Emissions",
+        "type": "quantitative",
+        "title": "Emissions (kt CO2-e)"
+      }
+    ]
+  },
+  "view": {"stroke": null}
+}

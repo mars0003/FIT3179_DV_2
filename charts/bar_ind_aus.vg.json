@@ -1,25 +1,29 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A grouped bar chart showing the emissions per industry in 2000 and 2020.",
-    "background":"#fbfbf3",
-    "width": 479,
-    "height": 300,
-    "data": {
-      "url": "charts/aus_CO2_industry.json"
-    },
-    "mark": "bar",
-    "encoding": {
-      "x": {"field": "Industry"},
-      "y": {"field": "Emission", "type": "quantitative"},
-      "xOffset": {"field": "Year"},
-      "color": {"field": "Year",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A grouped bar chart showing the emissions per industry in 2000 and 2020.",
+  "background":"#fbfbf3",
+  "width": 479,
+  "height": 300,
+  "data": {
+    "url": "charts/aus_CO2_industry.json"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Industry"},
+    "y": {"field": "Emission", "type": "quantitative","title": "Emission (kt CO2-e)"},
+    "xOffset": {"field": "Year"},
+    "color": {
+      "field": "Year",
       "type": "ordinal",
       "scale": {
         "domain": [2000, 2020],
-        "range": ["maroon", "teal"]}
-    }
+        "range": ["maroon", "teal"]
+      }
+    },
+    "tooltip": [
+      {"field": "Industry", "type": "nominal", "title": "Sector"},
+      {"field": "Emission", "type": "quantitative", "title": "Emission"},
+      {"field": "Year", "type": "ordinal", "title": "Year"}
+    ]
   }
 }
-  
-  
-  

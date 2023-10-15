@@ -1,0 +1,8 @@
+[
+  {"Land Use Emission Breakdown": "Forest Land", "Emission(kt CO2-e)": -18810},
+  {"Land Use Emission Breakdown": "Cropland", "Emission(kt CO2-e)": -366},
+  {"Land Use Emission Breakdown": "Grassland", "Emission(kt CO2-e)": -1249},
+  {"Land Use Emission Breakdown": "Wetland", "Emission(kt CO2-e)": 218.21},
+  {"Land Use Emission Breakdown": "Settlements", "Emission(kt CO2-e)": 30},
+  {"Land Use Emission Breakdown": "Deforestation", "Emission(kt CO2-e)": 1620}
+]

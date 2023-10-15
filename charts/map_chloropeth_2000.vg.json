@@ -1,6 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "CO2 Emissions Per Capitia For Australian States (2000)",
     "width": 500,
     "height": 400,
     "background":"#fbfbf3",

@@ -1,25 +1,28 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A box plot showing emissions in different Australian states.",
-  "background":"#fbfbf3",
+  "background": "#fbfbf3",
   "width": 479,
   "height": 300,
   "data": {"url": "charts/aus_CO2_emissions_time.json"},
+  "selection": {
+    "stateFilter": {
+        "type": "single", 
+        "fields": ["State"],
+        "bind": {
+          "input": "select", 
+          "options": [null, "New South Wales", " Victoria  ", " Queensland ", " South Australia  ", " Western Australia ", " Tasmania ", " Australian Capital Territory ", " Northern Territory "],
+          "labels": ["Show all", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"],
+          "name": "State: "
+    },
+        "empty": "all"
+    }
+  },
+  
   "layer": [
     {
       "mark": "boxplot",
-      "selection": {
-        "stateFilter": {
-            "type": "single", 
-            "fields": ["State"],
-            "bind": {
-                  "input": "select", 
-                  "options": [null,"New South Wales", " Victoria  ", " Queensland ", " South Australia  ", " Western Australia ", " Tasmania ", " Australian Capital Territory ", " Northern Territory "],
-                  "labels": ["Show all", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"],
-                  "name": "State: "
-            }
-        }
-    },
+      
       "encoding": {
         "x": {"field": "State", "type": "ordinal"},
         "y": {"field": "Emissions", "type": "quantitative"},
@@ -32,30 +35,74 @@
     },
     {
       "mark": "point",
+      "selection": {
+        "stateFilter": {
+            "type": "single", 
+            "fields": ["State"],
+            "bind": {
+                  "input": "select", 
+                  "options": [null, "New South Wales", " Victoria  ", " Queensland ", " South Australia  ", " Western Australia ", " Tasmania ", " Australian Capital Territory ", " Northern Territory "],
+                  "labels": ["Show all", "New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", "Tasmania", "Australian Capital Territory", "Northern Territory"],
+                  "name": "State: "
+            },
+            "empty": "all"
+        }
+      },
+      "encoding": {
+        "x": {"field": "State", "type": "ordinal"},
+        "y": {
+          "field": "Emissions",
+          "type": "quantitative",
+          "aggregate": "max",
+          "title": "(kt CO2-e)"
+        }
+      },
+      "transform": [{"filter": {"or": [{"selection": "stateFilter"}]}}]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "bottom",
+        "dx": 0,
+        "dy": -10
+      },
       "encoding": {
         "x": {"field": "State", "type": "ordinal"},
         "y": {
           "field": "Emissions",
           "type": "quantitative",
           "aggregate": "max"
+          
         },
-        "tooltip": [
-          {
-            "field": "Year",
-            "type": "ordinal",
-            "aggregate": {"argmax": "Emissions"}
-          },
-          {
-            "field": "Emissions",
-            "type": "quantitative",
-            "aggregate": "max",
-            "title": "Max Emissions"
-          }
-        ]
-      }
+        "text": {
+          "field": "Year",
+          "type": "ordinal",
+          "aggregate": {"argmax": "Emissions"}
+        }
+      },
+      "transform": [{"filter": {"or": [{"selection": "stateFilter"}]}}]
     },
     {
       "mark": "point",
+      
+      "encoding": {
+        "x": {"field": "State", "type": "ordinal"},
+        "y": {
+          "field": "Emissions",
+          "type": "quantitative",
+          "aggregate": "min"
+        }
+      }
+      },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "bottom",
+        "dx": 0,
+        "dy": 20
+      },
       "encoding": {
         "x": {"field": "State", "type": "ordinal"},
         "y": {
@@ -63,21 +110,14 @@
           "type": "quantitative",
           "aggregate": "min"
         },
-        "tooltip": [
-          {
-            "field": "Year",
-            "type": "ordinal",
-            "aggregate": {"argmin": "Emissions"}
-          },
-          {
-            "field": "Emissions",
-            "type": "quantitative",
-            "aggregate": "min",
-            "title": "Min Emissions"
-          }
-        ]
-      }
+        "text": {
+          "field": "Year",
+          "type": "ordinal",
+          "aggregate": {"argmin": "Emissions"}
+        }
+      }    
     }
-  ]
+  ],
+  "transform": [{"filter": {"or": [{"selection": "stateFilter"}]}}]
 
 }

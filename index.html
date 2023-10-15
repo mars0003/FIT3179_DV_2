@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>Carbon Footprints Visualization</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
@@ -16,13 +16,16 @@
 
 </head>
 <body>
+    <div class="smoke-title">Mapping Carbon Footprints: A Comparative Analysis of CO2 Emissions by State and Industry in Australia</div>
+
     <div class="image-container">
-        <img src="charts/some.png" alt="Mapping Carbon Footprints">
+        <img src="Data/image.jpeg" alt="Mapping Carbon Footprints">
     </div>
     <div class="book-page">
             <div class="left-page">
                 <div class="title">Overview of Carbon Emissions in Australia</div>
                 <div class="overview">Australia's carbon emissions have been a topic of global concern. As we strive for a sustainable future, tracking our carbon footprint becomes crucial. The provided charts offer an insight into the carbon emissions of different Australian states, helping us identify areas of concern and potential improvements.</div>
+                <div class="subtitle">CO2 Emissions Per Capitia For Australian States 2000 and 2020 </div>
                 <div class="map" id = "map"></div>
                 <div class="map2" id="map2" style="display: none;"></div>
                 
@@ -34,33 +37,25 @@
                     </label>
                     <span class="switch-desc">2020</span>
                 </div>
-                <div class="overview">In 2000, Northern Territory exhibited the highest CO2 emissions per capita, followed closely by Western Australia.
-                    By 2020, while Northern Territory continued to be at the forefront, there was a noticeable shift in the emission patterns of other states. Queensland, for instance, saw an upward trend, whereas states like Victoria maintained a relatively consistent emission rate.
+                <div class="overview">The map visualization of <span class ="highlight">CO2 emissions per capita</span> for Australian states indicates a significant difference in carbon footprints across regions. It's evident that there has been a shift in emission patterns from 2000 to 2020.
+                    Northern Territory consistently stands out with higher emissions per capita in both years however they have reduced the per capita emission value to almost <span class ="highlight">50%</span> of its orignal value. While all other states have <span class ="highlight">reduced</span> their emissions as well.
                 </div>
                 <div class="subtitle">Emissions Trend from 1990 to 2020</div>
                 <div class="line" id = "line"></div>
-                <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
-                    The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
-                    States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
-                    It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
-                .</div>
+                <div class="overview">Over the past three decades, there's been a notable variance in emission trends among the states. The introduction of the  <span class ="highlight">'Renewable Energy (Electricity) Act' </span> in 2000 seem to have influenced these trends, indicating policy-driven changes.While most states did not show an immediate decline after the act in 2000, <span class ="highlight">Tasmania%</span> and <span class ="highlight">Nothern Territory </span> showed a sharp decline in emissions the following years. The more significant changes can be seen after the intriduction of the <span class ="highlight">'Clean Energy Act' </span> in 2011.<span class ="highlight">New South Wales</span>, <span class ="highlight">Victoria</span>, <span class ="highlight">Queensland </span> and <span class ="highlight">Australian Capital Territory</span> showed declines after the introduction of the acts.</div>
                      
             </div>
             <div class="right-page">
             <div class="box-plot" id="box-plot" ></div>
-            <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
-                The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
-                States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
-                It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
-            </div>
+            <div class="overview">
+                The visualization offers a detailed view of <span class="highlight">CO2 emissions</span> across various states in Australia, utilizing both box plots and points to emphasize the data spread and outliers for each state over the years. Some states, particularly <span class="highlight">Queensland and New South Wales</span>, display high emission levels, peaking at around <span class="highlight">200,000 (kt CO2-e)</span>. In contrast, regions like the Australian Capital Territory and Northern Territory show considerably lower emissions. Remarkably, both <span class="highlight">Victoria and New South Wales</span>, among Australia's most populous states, recorded their lowest emissions in <span class="highlight">2020</span>, the latest year in the data set.
+                </div>
             <div class="subtitle">Change in Sector Emissions </div>
             <div class="aus-ind-bar" id="aus-ind-bar" ></div>
-            <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
-                The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
-                States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
-                It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
-            </div>
-            <button onclick="switchPage()">Next Page</button>
+            <div class="overview">
+                The presented visualization showcases the <span class="highlight">Change in Sector Emissions</span> over a span of two decades: from 2000 to 2020. It's evident that the Energy sector leads in emissions, with a substantial increase over the years, reaching nearly <span class="highlight">450,000 (kt CO2-e)</span> in 2020. While sectors like Agriculture and Industrial Processes have shown some fluctuations, Land Use and Waste seem to have controlled their emissions, displaying a decline in 2020 compared to 2000. This visualization offers a snapshot of Australia's efforts across sectors to manage and potentially reduce CO2 emissions.
+                </div>
+            <button class = "Next" onclick="switchPage()">Next Page</button>
 
             <!--<div class="line" id = "line">Line chart</div>-->
             </div>
@@ -69,33 +64,37 @@
     <div class="book-page1" style="display:none;" >
         <div class="left-page1">
             <div class="title">Overview of Carbon Emissions in Victoria</div>
-            <div class="overview">Australia's carbon emissions have been a topic of global concern. As we strive for a sustainable future, tracking our carbon footprint becomes crucial. The provided charts offer an insight into the carbon emissions of different Australian states, helping us identify areas of concern and potential improvements.</div>
-
+            <div class="overview">The carbon footprint of Victoria is under close scrutiny as we navigate towards a greener future. Monitoring these emissions is vital. The charts presented shed light on Victoria's emission trends, spotlighting challenges and avenues for progress.</div>
             <div class="subtitle">Emissions by Sector in 2020 Comparitive to Other States</div>
-            <div class="state-ind-bar" id="state-ind-bar" ></div>
+            <div class="state-ind-bar" id="state-ind-bar" title="Click the legend to select a state" ></div>
 
-            <div class="overview">Australia's carbon emissions have been a topic of global concern. As we strive for a sustainable future, tracking our carbon footprint becomes crucial. The provided charts offer an insight into the carbon emissions of different Australian states, helping us identify areas of concern and potential improvements.</div>
-            <div class="subtitle">Sector Emissions Trend from 1990 to 2020</div>
+            <div class="overview">The visualization sheds light on the <span class="highlight">emissions by sector in 2020</span> across various Australian states. A striking detail is <span class="highlight">Queensland's pronounced energy emissions</span>, which is especially significant considering its population is <span class="highlight">lower</span> than that of Victoria. This contrast underscores the complexity of emission sources and suggests that factors beyond just population, such as industrial practices and energy sources, play a crucial role. These findings stress the need for region-specific strategies in Australia's journey towards sustainability.</div>            <div class="subtitle">Sector Emissions Trend from 1990 to 2020</div>
             <div class="vic-ind-bar" id="vic-ind-bar" ></div>
-            <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
-                The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
-                States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
-                It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
-            .</div>
-            <button onclick="switchPage()">Previous Page</button>
+            <div class="overview">The stacked bar chart offers insights into <span class="highlight">sector-wise carbon emissions</span> over time. The <span class="highlight">Energy sector</span> dominates the emissions, indicating a heavy reliance on fossil fuels. The impacts of significant policies, like the '<span class="highlight">Clean Energy Act</span>' in 2011, are visible with a shift in emissions post-implementation. This emphasizes the potential of regulatory measures in driving sustainable practices across sectors. The chart also shows a significant decline overtime in most sectors apart from <span class ="highlight">Transport</span> and <span class ="highlight">Industrial Process</span>.</div>
+            <button class ="Previous"onclick="switchPage()">Previous Page</button>
 
                  
         </div>
         <div class="right-page1">
-        <div class="subtitle">Victoria Fuel Usage Emissions 2020 Breakdown</div>
+        <div class="subtitle">Victoria Energy Usage Emissions 2020 Breakdown</div>
         <div class="vic-energy-donut" id="vic-energy-donut" ></div>
-        <div class="overview">Over the three-decade span, Australian Capital Territory, Northern Territory, and Western Australia witnessed peaks and troughs but remained consistently high in their emission rates.
-            The introduction of the 'Renewable Energy (Electricity) Act' in 2000 and the 'Clean Energy Act' in 2011 marked significant policy changes, which can be correlated with fluctuations in the emission trends of certain states.
-            States like Tasmania maintained a steady, low emission rate throughout the years, showcasing the effectiveness of sustainable practices.
-            It's evident from the data that while some regions have made commendable efforts in reducing their carbon footprint, others still have a long way to go. As Australia continues its journey towards sustainability, these insights can be instrumental in shaping future environmental policies and strategies.
+        <div class="overview">The donut chart vividly displays Victoria's <span class="highlight">Fuel Usage Emissions for 2020</span>. Predominantly, the Energy industries take the largest share, underscoring Victoria's substantial reliance on traditional energy sources. Interestingly, while Fugitive emissions from fuels is often a major contributor to emissions globally, its segment here is noticeably smaller. Transport and Manufacturing industries also occupy significant portions. On the other hand, Other sectors contribute the least, hinting at successful emissions reduction in those areas. As Victoria steers its course towards a greener future, understanding such <span class="highlight">emission breakdowns</span> becomes paramount in devising effective policies and strategies.</div>
+        <div class="subtitle">Victoria Land Usage Emissions 2020 Breakdown</div>
+        <div class="vic-lands-donut" id="vic-lands-donut" ></div>
+        <div class="overview">The vertical bar chart offers a detailed view of emissions from different  <span class="highlight">land use categories</span>. The negative emissions from <span class="highlight">Forest Land</span>  are a testament to the crucial role forests play in acting as carbon sinks. However, deforestation poses a concerning environmental challenge, as it contributes positively to emissions. The data underscores the importance of preserving forest lands and regulating activities that lead to deforestation.
         </div>
-        <!--<div class="line" id = "line">Line chart</div>-->
+
+
         </div>
+</div>
+<div class="footer">
+    Author: Mohamed Arshad
+    <br><br>
+    Description: The above visualisation shows the carbon emission breakdown in Australia and Victoria. Data collected via 
+    <br>
+    <a href="https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-accounts-2020/state-and-territory-greenhouse-gas-inventories-data-tables-and-methodology">National Greenhouse Accounts 2020</a>
+    <br>
+    <a href="https://github.com/rowanhogan/australian-states/blob/master/states.geojson">Australian States GeoJSON</a>
 </div>
 </div>
 
@@ -104,14 +103,16 @@
 
     <script>
         // Embed the Vega-Lite visualization  
-    vegaEmbed('#map', 'charts/map_chloropeth_2000.vg.json');
-    vegaEmbed('#map2', 'charts/map_chloropeth_2020.vg.json');
-    vegaEmbed('#line', 'charts/line_chart.vg.json');
-    vegaEmbed('#box-plot', 'charts/box_plot.vg.json');
-    vegaEmbed('#aus-ind-bar', 'charts/bar_ind_aus.vg.json');
-    vegaEmbed('#state-ind-bar', 'charts/bar_ind_state.vg.json');
-    vegaEmbed('#vic-ind-bar', 'charts/bar_vic_ind_time.vg.json');
-    vegaEmbed('#vic-energy-donut', 'charts/donut_energy_vic.vg.json');
+    vegaEmbed('#map', 'charts/map_chloropeth_2000.vg.json',{actions: false});
+    vegaEmbed('#map2', 'charts/map_chloropeth_2020.vg.json',{actions: false});
+    vegaEmbed('#line', 'charts/line_chart.vg.json',{actions: false});
+    vegaEmbed('#box-plot', 'charts/box_plot.vg.json',{actions: false});
+    vegaEmbed('#aus-ind-bar', 'charts/bar_ind_aus.vg.json',{actions: false});
+    vegaEmbed('#state-ind-bar', 'charts/bar_ind_state.vg.json',{actions: false});
+    vegaEmbed('#vic-ind-bar', 'charts/bar_vic_ind_time.vg.json',{actions: false});
+    vegaEmbed('#vic-energy-donut', 'charts/donut_energy_vic.vg.json',{actions: false});
+    vegaEmbed('#vic-lands-donut', 'charts/bar_land_vic.vg.json',{actions: false});
+
 
 
 

@@ -1,32 +1,38 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A grouped bar chart showing the emissions per industry in 2000 and 2020.",
-  "background": "#fbfbf3",
-  "width": 479,
-  "height": 300,
-  "data": {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A grouped bar chart showing the emissions per industry in 2000 and 2020.",
+    "background": "#fbfbf3",
+    "width": 479,
+    "height": 300,
+    "data": {
       "url": "charts/state_CO2_industry.json"
-  },
-  "selection": {
+    },
+    "selection": {
       "select_state": {
-          "type": "multi",
-          "fields": ["State"],
-          "bind": "legend"
+        "type": "multi",
+        "fields": ["State"],
+        "bind": "legend"
       }
-  },
-  "mark": "bar",
-  "encoding": {
+    },
+    "mark": "bar",
+    "encoding": {
       "x": {"field": "Industry", "type": "nominal"},
-      "y": {"field": "Emission", "type": "quantitative"},
+      "y": {"field": "Emission", "type": "quantitative", "title": "Emission (kt CO2-e)"},
       "xOffset": {"field": "State", "type": "nominal"},
       "color": {
-          "field": "State",
-          "type": "nominal",
-          "legend": {"title": "State"}
+        "field": "State",
+        "type": "nominal",
+        "legend": {"title": "State"}
       },
       "opacity": {
-          "condition": {"selection": "select_state", "value": 1},
-          "value": 0
-      }
+        "condition": {"selection": "select_state", "value": 1},
+        "value": 0.1
+      },
+      "tooltip": [
+        {"field": "State", "type": "nominal", "title": "State"},
+        {"field": "Industry", "type": "nominal", "title": "Industry"},
+        {"field": "Emission", "type": "quantitative", "title": "Emission (kt CO2-e)"}
+      ]
+    }
   }
-}
+  

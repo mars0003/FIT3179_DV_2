@@ -10,16 +10,6 @@ function switchChart() {
     }
 }
 
-function switchChart2() {
-    if (document.getElementById('box-plot').style.display == 'none') {
-        document.getElementById('line').style.display = 'none';
-        document.getElementById('box-plot').style.display = 'block';
-    } else {
-        document.getElementById('box-plot').style.display = 'none';
-        document.getElementById('line').style.display = 'block';
-        currentChart = 1;
-    }
-}
 
 function switchPage() {
     var page1 = document.querySelector(".book-page");
@@ -32,5 +22,6 @@ function switchPage() {
         page1.style.display = "none";
         page2.style.display = "flex";
     }
+    window.scrollTo(0, document.body.scrollHeight / 3);
 }
 

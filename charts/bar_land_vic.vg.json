@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#fbfbf3",
+  "width": 479,
+  "height": 300,
+  "data": {
+    "url": "charts/vic_lands_2020.json"
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#0cc922"
+  },
+  "encoding": {
+    "x": {
+      "field": "Land Use Emission Breakdown",
+      "type": "ordinal",
+      "axis": {
+        "labelAngle": 0,
+        "title": "Land Use Emission Breakdown"
+      }
+    },
+    "y": {
+      "field": "Emission(kt CO2-e)",
+      "type": "quantitative",
+      "axis": {
+        "title": "Emission (kt CO2-e)"
+      }
+    },
+    "tooltip": [
+      {"field": "Land Use Emission Breakdown", "type": "ordinal"},
+      {"field": "Emission(kt CO2-e)", "type": "quantitative"}
+    ]
+  }
+}
