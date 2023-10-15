@@ -203,7 +203,7 @@ body {
 }
 .book-page {
     display: flex;
-    width: 1450px; 
+    width: 95%; 
     height: 1500px; 
     background-color: #ffffe0; 
     margin: 20px auto; 
@@ -212,7 +212,7 @@ body {
 }
 .book-page1 {
     display: flex;
-    width: 1450px; 
+    width: 95%; 
     height: 1500px;
     background-color: #ffffe0; 
     margin: 20px auto; 
