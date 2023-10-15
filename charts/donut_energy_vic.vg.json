@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A donut chart showing fuel emissions breakdown.",
+    "background": "#fbfbf3",
+    "width": 479,
+    "height": 300,
+    "data": {
+      "values": [
+        {"Fuel Emissions Breakdown": "Energy industries", "Emissions": 44371.52095},
+        {"Fuel Emissions Breakdown": "Manufacturing industries and construction", "Emissions": 5353.847239},
+        {"Fuel Emissions Breakdown": "Transport", "Emissions": 20790.17884},
+        {"Fuel Emissions Breakdown": "Other sectors", "Emissions": 9311.743922},
+        {"Fuel Emissions Breakdown": "Fugitive emissions from fuels", "Emissions": 2002.028933}
+      ]
+    },
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+      "theta": {"field": "Emissions", "type": "quantitative"},
+      "color": {"field": "Fuel Emissions Breakdown", "type": "nominal", "legend": {"title": "Fuel Emissions Breakdown"}, "scale": {
+        "scheme":"browns"
+      }
+    }},
+    "view": {"stroke": null}
+  }
+  
